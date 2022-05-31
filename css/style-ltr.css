@@ -1,0 +1,57 @@
+ body {
+     direction: ltr;
+     text-align: left;
+ }
+
+ i {
+     transform: rotateY(180deg);
+ }
+
+
+.social-media a i{transform: rotateY(0deg);}
+
+ .mr-10 {
+     margin-right: 0px;
+     margin-left: 10px
+ }
+
+ .btn-search {
+     left: unset;
+     right: 0px
+ }
+
+
+.mr-20 {
+    margin-right: 0px !important;
+    margin-left: 20px !important;
+}
+
+
+.the_notific li:after{
+    right: unset;
+    left: 0px
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow, .form-group .icon_fa{
+    right: 10px;
+    left: unset
+}
+
+.text-left{
+    text-align: right !important
+}
+
+.text-right{
+    text-align: left !important
+}
+
+
+ @media (max-width: 767.98px) {
+     .nav_bar {
+         left: 0px;
+         right: unset;
+         transform: translateX(-100%);
+     }
+     
+     
+ }
